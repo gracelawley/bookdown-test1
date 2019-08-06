@@ -18,12 +18,6 @@ This is what worked for me after many iterations of trial and error. It differs 
 
 1. Take a "snapshot" of the packages used in the Bookdown via `renv::snapshot()`. This will update `renv.lock` with any changes.
 
-    Example output:
-    
-```{r echo = FALSE}
-knitr::include_graphics("img/renv-snapshot.png")
-```
-    
 1. Upload `renv.lock` to GitHub, add `.Rprofile` and `renv/` to `.gitignore`
     
 
